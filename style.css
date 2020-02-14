@@ -1,21 +1,27 @@
 p{
-    font-size: x-large;
+    font-size: smaller;
+    font-weight: lighter;
     text-align: center;
     font-family: 'Roboto Mono', sans-serif;
 
 }
 
-.paragraph{
-    font-size: large;
-    text-align: center;
+#paragraph{
+    font-size: smaller;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: -20px;
     font-family: 'Roboto Mono', sans-serif;
+    word-spacing: 0px;
+    position: relative;
+    left: 150px;
 }
 /* Style the navigation bar */
-.navbar {
+/* .navbar {
     width: 100%;
-    background-color: white;
+    background-color: black;
     overflow: auto;
-  }
+  } */
   
   /* Navbar links */
   /* .navbar a {
@@ -27,9 +33,10 @@ p{
   } */
 
   .myimages {
-    margin-right: 200px;
+    margin-right: 100px;
     position: relative;
     left: 300px;
+    top: -50px;
   }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -45,7 +52,7 @@ p{
   .content {
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
